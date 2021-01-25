@@ -7,12 +7,23 @@
 </head>
 <body>
 	<style>
-body {
+/*body {
   background-image: url('back.jpg');
   /*background-color: lightblue;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+*/body::after {
+  content: "";
+  background: url(http://ib1.keep4u.ru/b/070815/ef2714da63d5940bf5.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 </style>
 	<div>
